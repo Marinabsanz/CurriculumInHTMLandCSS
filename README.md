@@ -1,6 +1,5 @@
-# GenerateyourCV
-Creador de CV en linea
+MARINA BENITEZ SANCHEZ
 
+CURRICULUM  /INGLÉS
 
-
--EN PROGRESO DE CONSTRUCCION-
+-ELaborado en HTML5 Y CSS3
