@@ -1,6 +1,6 @@
-/* Global styles
--------------------------*/
-/* apply a natural box layout model to all elements, but allowing components to change */
+*  {
+  list-style:none
+}
 html {
     box-sizing: border-box;
   }
@@ -47,7 +47,7 @@ html {
   /* Download button */
   .btn {
     text-decoration: none;
-    background: #edf7ec00;
+    background: #f0f7ef00;
     color: white;
     padding: 10px;
     display: inline-block;
@@ -151,8 +151,8 @@ html {
   /* Education
   -------------------------*/
   .education {
-    background: linear-gradient(rgba(79, 218, 211, 0.8), rgba(118, 160, 160, 0.5)),
-                no-repeat fixed;
+    background: #99dcee;
+             
     background-size: cover;
   }
   p + h3 {
