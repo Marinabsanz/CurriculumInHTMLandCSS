@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="./styles/reset.css">
 </head>
 <body>
+
   <!-- // Intro -->
   <header id="about">
+      <div id= "pdf">
     <a href="mycvin.pdf" target="_blank" download class="btn download">Download PDF</a>
     <nav>
       <a href="#about">About</a>
@@ -37,7 +39,7 @@
         <h2>Professional Experience</h2>
 
         <!-- detalles trabajo 1 -->
-        <div class="col-narrow">
+        <div class="exper"></div>
           <h3>Front-end Developer</h3>
           <p class="uppercase">Code Bootcamp. Adalab. Madrid</p>
           <p>April - July 2021</p>
@@ -55,8 +57,8 @@
           </ul>
           </p>
           <p><strong> *More info about me and my personals projects in <a href="https://github.com/Marinabsanz" target="_blank">GitHub</a>.</p>
-          </strong></div>
-        <div class="col-narrow">
+          </strong>
+        <div class="experience>
           <h3>Tourist Guide</h3>
           <p class="uppercase">Sevilla, Andalusia</p>
           <p>2014-2021</p>
@@ -66,12 +68,12 @@
           <ul>
           
             <li>Customer service in Spanish, English and French.</li>
-            <li>Tourist guide in Sevilla and Andalusia</li>
+            <li>Linccensed Tour guide in Sevilla and Andalusia</li>
            
           </ul>
         </div>
         <!-- job4 -->
-        <div class="col-narrow">
+        <div class="experience">
           <h3>Recepcionist</h3>
           <p>Sevilla, Andalusia</p>
           <p>Summer 2014</p>
@@ -90,7 +92,7 @@
     
        
         <!-- job4 -->
-        <div class="col-narrow">
+        <div class="experience">
           <h3>Intership Hotel </h3>
           <p>>Melía Hotels International Sevilla, Andalusia</p>
           <p>2014-2021</p>
@@ -99,15 +101,15 @@
         
           <ul>
           
-            <li>Departamentos salones y eventos</li>
-            <li>Facturas proforma</li>
+            <li>Customer service in Spanish, English and French</li>
+           
            
           </ul>
         </div>
 
 
  <!-- job4 -->
- <div class="col-narrow">
+ <div class="experience">
   <h3>Photographer</h3>
   <p class="uppercase">Sevilla, Andalusia</p>
   <p>208-2009</p>
@@ -129,25 +131,25 @@
     <section id="exptertise" class="exptertise">
         <div class="content-wrap">
             <h2>Skills</h2>
-              <div class="col-narrow">
-                <h3>Idiomas</h3>
+              <div class="educ">
+                <h3>Languages</h3>
               </div>
               <div class="col-wide job-description">
                 <p>Francés Inglés Español </p>
               </div>
-              <div class="col-narrow">
+              <div class="educ">
                 <h3></h3>
               </div>
               <div class="col-wide job-description">
                 <p></p>
               </div>
-              <div class="col-narrow">
+              <div class="educ">
                 <h3>Web Front-end:</h3>
               </div>
               <div class="col-wide job-description">
-                <p>HTML 5, CSS 3, Javascript, React,, Node JS,SASS</p>
+                <p>HTML 5, CSS 3, Javascript, React, Node JS,SASS</p>
               </div>
-              <div class="col-narrow">
+              <div class="educ">
                 <h3></h3>
               </div>
               <div class="col-wide job-description">
@@ -195,7 +197,7 @@
 
       <!-- Social media links-->
       <div class="contact-info">
-        <a href="marinabsanz@gmail.com">mimail.com</a>
+        <a href="marinabsanz@gmail.com">marinabsanz@mail.com"</a>
         <a href="https://www.linkedin.com/in/marina-ben%C3%ADtez-s%C3%A1nchez-0214a059/">LinkedIn</a>
         <a href="hhttps://github.com/Marinabsanz">Github</a>
       </div>
@@ -203,5 +205,17 @@
       <p> &copy Copyright  2021 Marina Benítez Sánchez</p>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+<script>    document.addEventListener('DOMContentLoaded', function() {
+  let pdf = new jsPDF('p', 'pt', 'a4');
+  pdf.addHTML(document.querySelector('#pdf'), function() {
+      pdf.save('documentoPDF1.pdf');
+  });
+});
+</script>
+  </div>
+</body>
+</body>
 </body>
 </html>
