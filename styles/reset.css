@@ -44,12 +44,21 @@ html {
     text-transform: uppercase;
   }
   
+
+
+
+
+  .color2{ 
+    color: solid rgb(230, 108, 59);
+    list-style-type: none;
+    }
+
   /* Download button */
   .btn {
     text-decoration: none;
     background: #f0f7ef00;
-    color: white;
-    padding: 10px;
+    color: rgb(255, 255, 255) ;
+    padding: 20px;
     display: inline-block;
   }
   
@@ -113,7 +122,6 @@ html {
   }
   
 
- 
 
 
 
@@ -139,3 +147,19 @@ html {
       width: 200px;
     }
   }
+
+
+.flag      {  
+size: 30px;
+height: 30px;
+margin-top :10px;
+}
+
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+}
+
+
