@@ -57,6 +57,7 @@ html {
   .btn {
     text-decoration: none;
     background: #f0f7ef00;
+    font-size: 20px;
     color: rgb(255, 255, 255) ;
     padding: 20px;
     display: inline-block;
@@ -66,7 +67,7 @@ html {
   /* Header and Footer
   -------------------------*/
   header, footer {
-    background: #99dcee;
+    background: #a8deec;
     color: #dddddd;
   }
   /* header */
@@ -107,7 +108,7 @@ html {
   -------------------------*/
   nav {
     text-align: center;
-    background: white;
+    background: rgb(147, 225, 245);
     position: fixed;
     top: 0;
     width: 100%;
@@ -163,3 +164,10 @@ margin-top :10px;
 }
 
 
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  
+}
