@@ -74,6 +74,7 @@ html {
   header {
     padding-top: 50px;
     position: relative;
+    
   }
   header h1, header h2 {
     color: #EDF2F4;
@@ -123,8 +124,10 @@ html {
   }
   
 
+.headerclass{
+  position: fixed;
 
-
+}
 
   
   /* Media Queries
@@ -163,6 +166,12 @@ margin-top :10px;
   text-align: end;
 }
 
+
+
+
+.color2{
+  color: rgb(255, 238, 238);
+}
 
 a,
 a:visited,
