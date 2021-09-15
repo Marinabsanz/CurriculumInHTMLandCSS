@@ -26,7 +26,7 @@ html {
     margin: 0;
   }
   a {
-    color: #070808e8;
+    color: #878888e8;
   }
   a:hover {
     text-decoration: none;
@@ -67,10 +67,10 @@ html {
   /* Header and Footer
   -------------------------*/
   header, footer {
-    background: #a8deec;
+    background: #4a4b4b;
     color: #dddddd;
   }
-  /* header */
+ 
   header {
     padding-top: 50px;
     position: relative;
@@ -79,6 +79,7 @@ html {
   header h1, header h2 {
     color: #EDF2F4;
     margin: 0;
+   
   }
   .profile-img {
     border-radius: 50%;
@@ -109,11 +110,12 @@ html {
   -------------------------*/
   nav {
     text-align: center;
-    background: rgb(147, 225, 245);
+    background: rgb(32, 32, 32);
     position: fixed;
     top: 0;
     width: 100%;
-    /*z-index: 100;*/
+    margin-top: 0;
+
   }
   nav a {
     display: inline-block;
@@ -121,17 +123,15 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 0;
   }
   
 
 .headerclass{
   position: fixed;
-
+  margin-top: 0;
 }
 
-  
-  /* Media Queries
-  -------------------------*/
   @media (min-width: 900px) {
     .col-narrow {
       width: 30%;
@@ -144,7 +144,7 @@ html {
     }
   }
   @media (max-width: 899px){
-    header {
+    .headerclass {
       text-align: center;
     }
     .profile-img {
@@ -179,4 +179,10 @@ a:hover,
 a:active {
   text-decoration: none;
   
+}
+
+
+
+.fas fa-arrow-right {
+  color: rgb(145, 26, 26);
 }
