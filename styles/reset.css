@@ -139,7 +139,7 @@ html {
     }
     .col-wide {
       width: 70%;
-      display:inline-block
+      display:inline-block;
       padding-left: 20px;
     }
   }
@@ -193,7 +193,7 @@ a:active {
 
 .grideducation {
 
-background-color: aqua;
-display: grid;
-
+background-color: rgb(224, 230, 230);
+display: flex;
+flex-direction: column;
 }
